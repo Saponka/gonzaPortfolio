@@ -98,3 +98,16 @@ year.forEach(element => {
     element.innerText = año;
 });
 
+
+//function goHome para pestañas
+function goHome() {
+    // Redirigir al home (index.html)
+    window.location.href = "../index.html";
+    
+    // Cerrar la pestaña actual (circum-galactic.html)
+    window.close();
+    
+    // Retornar false para evitar el comportamiento predeterminado del enlace
+    return false;
+}
+
