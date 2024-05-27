@@ -1,0 +1,11 @@
+4- LMC Clusters
+
+Abstract:
+
+Star clusters are excellent targets to determine stellar ages, metallicities, radial velocities and reddening. This information is required to test star formation and chemical histories of their host galaxies, and can be obtained from integrated spectrum fitting techniques. In this project, we study stellar clusters in the Large and Small Milky Clouds, which are two close satellite galaxies of our Milky Way Galaxy.
+
+Description:
+
+Publications:
+
+

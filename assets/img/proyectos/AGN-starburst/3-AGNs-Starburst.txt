@@ -1,0 +1,20 @@
+3- The Starburst-AGN connection
+
+Abstract:
+
+Increasing evidence suggests that there are potential links between the properties of active galactic nuclei (AGNs), their host galaxies and the parent dark matter halos. Current models suggest that Super Massive Black Holes (SMBH) in the center of galaxies acquire most of their mass through accretion of the surrounding material. However, the physics of AGNs is an open debate because there is no coherent scenario for the growth mechanisms of a SMBH that explains the connection with the growth of the host galaxy. 
+In this project, we study the spectroscopic and photometric properties of a sample of active and inactive galaxies, of all types, in the optical and in the infrared, from spatial scales of tens of parsecs to the largest interactions. The goal is to explore the connection between star formation and nuclear activity, a problem historically known as the starburst-AGN connection.
+
+
+ 
+Description:
+
+ - NGC 2992: 
+
+ - NGC 253:
+
+ - NGC 5128:
+
+
+
+

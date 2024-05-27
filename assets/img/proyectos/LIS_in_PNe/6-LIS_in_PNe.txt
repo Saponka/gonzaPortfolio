@@ -1,0 +1,11 @@
+6- Exploring the Mysteries of Planetary Nebulae
+6- Low Ionization Systems in Planetary Nebulae [Insterstella Medium - PNe]
+
+Abstract:
+
+Planetary nebulae (PNe) mark the final stage of evolution for low-to-intermediate mass stars, showcasing a complex interplay of ionized and molecular gases. During the red-giant and asymptotic giant branch phases, stars expel a significant portion of their mass, which becomes ionized by the ultraviolet radiation from a hot central star. Interestingly, a fraction of PNe also contains molecular gas, such as H2 and CO, with emission mechanisms ranging from collisions to UV fluorescence. Recent discoveries have detected H2 transitions in high-velocity low-ionization structures (LISs) within PNe like K 4-47, NGC 7662, and NGC 7009, prompting crucial questions about their formation and survival under intense UV radiation.
+
+To delve deeper into these phenomena, our project utilizes the Gemini Near-Infrared Spectrograph (GNIRS) at the Gemini-North telescope to conduct near-infrared long-slit spectroscopy on PNe NGC 6818 and NGC 7354. Our objective is to discern whether shocks or photo-ionization—or a combination of both—drive the excitation mechanisms within these nebulae. This research will enhance our understanding of stellar evolution, mass loss, clump formation, and the intricate processes involved in the formation of planetary nebulae.
+
+Description:
+

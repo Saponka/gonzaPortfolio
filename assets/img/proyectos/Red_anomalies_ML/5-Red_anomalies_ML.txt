@@ -1,0 +1,20 @@
+5- Spectroscopic monitoring of highly obscured active galactic nuclei, selected with "Machine Learning" algorithms.
+
+
+Abstract:
+
+Using the anomaly detection algorithm One-Class Support Vector Machines (OCSVM, Solarz et al. 2017), a highly darkened AGN sample was selected with much redder colors than the selection W1[3.6mic]-W2[4.5mic]> 0.8 from Stern et. al (2012). A subgrouphave been classified as AGN between z = 1.6 and 2.3 in the Sloan Digital Sky Survey (SDSS DR14). Thus, we started a pilot study to observe the rest-frame optical spectrum of one the QSO J0206+0105 at redshift z=XXX, in the near-infrared H and K bands. The goal is to investigate the role of dust in the reddening of this type of AGNs, by testing the contribution of the AGN to the spectral energy distribution (SED). 
+
+Description:
+
+Using the anomaly detection algorithm One-Class Support Vector Machines (OCSVM, Solarz et al. 2017), a highly darkened AGN sample was selected with much redder colors than the selection W1[3.6mic]-W2[4.5mic]> 0.8 from Stern et. al (2012). The algorithm has identified more than 40,000 sources photometrically consistent with being candidates for previously uncatalogued AGNs. Although most are not found in optical catalogs, a subgroup of 869 sources have been classified as AGN in the version 14 of the Sloan Digital Sky Survey (SDSS DR14).
+
+We are currently starting a campaign to observe the rest-frame optical spectrum of the AGN sample between z = 1.6 and 2.3, to investigate its properties, the dust content, the power of the AGN and the nature of its darkening.
+The pilot test is already underway with the observations of QSO J0206+0105 in the H and K bands of Flamingos-2 in Gemini South. With these observations we will improve the determination of the contribution of the AGN to the spectral energy distribution (SED) and, in this way, remove the degeneracy that exists in the adjustments of SEDs between the contribution of the AGN and the contribution of the dust, to the emission detected in the infrared bands of 250, 350 and 500 microns. As a result, it will be possible to investigate the role of dust in the reddening of this type of AGNs.
+
+Eventually we will extend the spectroscopic monitoring to other similar objects to expand the sample and train the algorithms used in the selection of said objects. As a result, it is expected to improve its identification in large current and near future surveys, such as the "Large Synoptic Survey Telescope" (LSST), to obtain statistically significant samples that allow investigating its evolution and distribution in the large scale structure of the Universe.
+
+Publications:
+
+Solarz et al. (2020, A&A, 642A, 103) https://ui.adsabs.harvard.edu/abs/2020A%26A...642A.103S/abstract
+
