@@ -11649,6 +11649,14 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
+.signup-section3{
+  padding: 8rem 0;
+  background:radial-gradient(rgba(0, 0, 0, 0.1) 12%, rgba(0, 0, 0, 0.5) 52%, #000 79%), url("../assets/img/violeta.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
 
 /*  */
 
@@ -11672,11 +11680,11 @@ body {
 }
 .contact-section .social a {
   text-align: center;
-  height: 3rem;
-  width: 3rem;
+  height: 5rem;
+  width: 5rem;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
-  line-height: 3rem;
+  line-height: 5rem;
   color: rgba(255, 255, 255, 0.3);
 }
 .contact-section .social a:hover {
@@ -11688,12 +11696,28 @@ body {
   
 }
 .footer {
-  padding: 2rem 0;
+  padding: 6rem 0 5px;
 }
 
 /* About */
 #about{
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/azulRojo.jpeg") ;
+  background:radial-gradient(rgba(0, 0, 0, 0.1) 12%, rgba(0, 0, 0, 0.5) 52%, #000 71%), url("../assets/img/azulRojo.jpeg");
+  background-position: center;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/azulRojo.jpeg") ; */
+}
+#brief{
+  background:radial-gradient(rgba(0, 0, 0, 0.1) 12%, rgba(0, 0, 0, 0.5) 52%, #000 71%), url("../assets/img/astronomyjpg.jpeg");
+
+  /* background-image: url(../assets/img/alaxy-comet-cpace-star-stars-lights-light-ftestickers-comet-nature-outdoors-outer-space-night-transparent-png-50735.png);
+   */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /* background-size: cover; */
+  background-color: #000;
 }
 /* social links hovers */
 
@@ -11736,8 +11760,8 @@ body {
 /* fotos */
 .fotoTelescopio{
   width: 500px;
-  height: 250px;
-  border: 1px solid #000;
+  /* height: 250px; */
+  /* border: 1px solid #000; */
   content-visibility: hidden;
   overflow: hidden;
 background:radial-gradient(rgba(0, 0, 0, 0.1) 12%, rgba(0, 0, 0, 0.5) 52%, #000 71%), url("../assets/img/astronomyjpg.jpeg");
@@ -11756,6 +11780,31 @@ background-size: cover;
             height: auto; /* Esto asegura que la altura se ajuste automáticamente según el ancho */
             display: block; /* Esto elimina el espacio adicional debajo de la imagen */
 }
+
+.hubble{
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%); 
+  display: inline-block;
+  border-radius: 10%; /* Esto hará que la imagen tenga bordes redondeados */
+  overflow: hidden; /* Esto asegurará que la imagen se recorte correctamente */
+
+  /* width: 430px; */ /* Esto asegura que la imagen ocupe todo el espacio disponible */
+            height: auto; /* Esto asegura que la altura se ajuste automáticamente según el ancho */
+            display: block; /* Esto elimina el espacio adicional debajo de la imagen */
+}
+
+.fotoMasthead{
+  background: radial-gradient(rgba(0, 0, 0, 0.1) 17%, rgba(0, 0, 0, 0.5) 42%, #000 65%), url(../assets/img/foto.jpeg);
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-attachment: scroll; */
+  background-size: cover;
+  width: 215px;
+  height: 220px;
+  border-radius: 50%;
+  content-visibility: hidden;
+  }
+
+
 #tituloPrincipal{
   font-size: 2.5rem;
 }
