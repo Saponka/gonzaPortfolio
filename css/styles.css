@@ -3059,13 +3059,13 @@ textarea.form-control-lg {
 }
 
 .btn-secondary {
-  color: #fff;
-  background-color: #7464a1;
-  border-color: #7464a1;
+  color: #070707;
+  background-color: #f4f2f8;
+  border-color: #471a05;
 }
 .btn-secondary:hover {
   color: #fff;
-  background-color: #635589;
+  background-color: #9206f0;;
   border-color: #5d5081;
 }
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
@@ -5756,7 +5756,7 @@ textarea.form-control-lg {
   .modal-dialog {
     /* max-width: 500px; */
     margin: 1.75rem auto;
-    height: inherit;
+    /* height: inherit; */
   }
 
   .modal-dialog-scrollable {
@@ -11587,6 +11587,30 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
+.proyect3{
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/proyectos/LMC_clusters/4-BlueSpace.jpg") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.proyect4{
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/proyectos/Red_anomalies_ML/5-quasar-wallpaper.jpg") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
 /*  */
 .masthead h1, .masthead .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11779,11 +11803,12 @@ background-size: cover;
   visibility: visible;
   opacity: 1;
 }
-
+/*  */
 /* time */
 .colorTime{
   color:rgba(255, 255, 255, 0.5);
 }
+
 /* fotos */
 .fotoTelescopio{
   width: 500px;
@@ -11831,7 +11856,12 @@ background-size: cover;
   content-visibility: hidden;
   }
 
-
+/* titulo */
 #tituloPrincipal{
   font-size: 2.5rem;
+}
+/* div container card proyects */
+.contentCardProyects{
+  display: flex;
+  justify-content: center;
 }

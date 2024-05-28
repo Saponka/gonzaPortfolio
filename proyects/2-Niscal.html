@@ -14,12 +14,14 @@
     <title>2-NISCAL</title>
 </head>
 <body>
-     <!-- Navigation-->
-     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="#page-top">Gonzalo Diaz</a>
-            
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
             </button>
@@ -28,59 +30,77 @@
                     <li class="nav-item"><a class="nav-link" href="../index.html" onclick="return goHome()">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="../proyects/main.html">Proyects</a></li>
                     <!-- <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li> -->
-                    <li class="nav-item colorTime" style="margin:auto ;"><span id="day"></span> <span id="date"></span>  <span id="month"></span>  <span class="year"></span>   </li>
+                    <li class="nav-item colorTime" style="margin:auto ;"><span id="day"></span> <span id="date"></span>
+                        <span id="month"></span> <span class="year"></span> </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead proyect1"  >
+    <header class="masthead proyect1">
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
                     <h4 class="mx-auto my-0 text-uppercase">Niscal</h4><br>
                     <p class="text-white-50 mb-0 " style="text-align: start;">
                         2-NISCAL
-
+    
                         <br><span class="text-white-40 mb-0">Abstract:</span> <br>
-
-                        NISCAL optimizes telluric correction and flux calibration, minimizing the contribution of the stellar spectrum to the telluric correction, automating the search for the best available stellar template, and tracking errors to estimate the level of uncertainty in the final spectrum. The current version is for slit spectroscopy of point sources and is being developed for: LS spectroscopy of extended objects, IFU spectroscopy, MOS, and flux calibration of multi-epoch data.
-
-
-                        <br> <span class="text-white-50 mb-0"> Description:</span><br>   
-
-                        Infrared spectroscopic observations are often accompanied by a comparison star (or "telluric") to correct for rapidly varying atmospheric absorption that depend on observing conditions (e.g. water vapor, temperature, air mass). NISCAL is a code that uses the spectrum of the observed star and a list of stellar spectra (synthetic or observed), to optimize the telluric correction and flux calibration, automating the search for the best fit, minimizing the contribution of the stellar spectrum to the transmission function, and following the errors to estimate the level of uncertainty in the final spectrum. NISCAL calculates the difference in radial velocity, searches for the spectrum that best fits the observed star, obtains the transmission function by removing the stellar spectrum, and applies the telluric correction to the science data. In addition, it offers a flux calibration with the magnitude of either the scientific source or the telluric star, or with data from a flux standard star, where all slit losses are considered based on the user-defined light profile. Its current version is for slit spectroscopy of point sources and is being developed for other spectroscopy modes. We present the effect of telluric correction and flux calibration on the signal-to-noise ratio of the final spectrum with observations of Flamingos-2 in Gemini South.
-
-
-                        <span class="text-white-50 mb-0">Publications:</span><br>  
-
-                        
-                           
-           </p>
-           <cite>Díaz, Gaspar & Díaz (2023, BAAA, 64, 329)</cite>  
-                        <a  href="http://ui.adsabs.harvard.edu/abs/2023BAAA...64..329D/abstract">https://ui.adsabs.harvard.edu/abs/2023BAAA...64..127D/abstract</a>          
+    
+                        NISCAL optimizes telluric correction and flux calibration, minimizing the contribution of the
+                        stellar spectrum to the telluric correction, automating the search for the best available stellar
+                        template, and tracking errors to estimate the level of uncertainty in the final spectrum. The
+                        current version is for slit spectroscopy of point sources and is being developed for: LS
+                        spectroscopy of extended objects, IFU spectroscopy, MOS, and flux calibration of multi-epoch data.
+    
+    
+                        <br> <span class="text-white-50 mb-0"> Description:</span><br>
+    
+                        Infrared spectroscopic observations are often accompanied by a comparison star (or "telluric") to
+                        correct for rapidly varying atmospheric absorption that depend on observing conditions (e.g. water
+                        vapor, temperature, air mass). NISCAL is a code that uses the spectrum of the observed star and a
+                        list of stellar spectra (synthetic or observed), to optimize the telluric correction and flux
+                        calibration, automating the search for the best fit, minimizing the contribution of the stellar
+                        spectrum to the transmission function, and following the errors to estimate the level of uncertainty
+                        in the final spectrum. NISCAL calculates the difference in radial velocity, searches for the
+                        spectrum that best fits the observed star, obtains the transmission function by removing the stellar
+                        spectrum, and applies the telluric correction to the science data. In addition, it offers a flux
+                        calibration with the magnitude of either the scientific source or the telluric star, or with data
+                        from a flux standard star, where all slit losses are considered based on the user-defined light
+                        profile. Its current version is for slit spectroscopy of point sources and is being developed for
+                        other spectroscopy modes. We present the effect of telluric correction and flux calibration on the
+                        signal-to-noise ratio of the final spectrum with observations of Flamingos-2 in Gemini South.
+    
+    
+                        <span class="text-white-50 mb-0">Publications:</span><br>
+    
+    
+    
+                    </p>
+                    <cite>Díaz, Gaspar & Díaz (2023, BAAA, 64, 329)</cite>
+                    <a
+                        href="http://ui.adsabs.harvard.edu/abs/2023BAAA...64..329D/abstract">https://ui.adsabs.harvard.edu/abs/2023BAAA...64..127D/abstract</a>
                 </div>
             </div>
         </div>
     </header>
+
     <section class="bg-black">
         <h4 style="text-align: center;">Images</h4>
         <div class="container px-4 px-lg-5  d-flex-column ">
             <img src="../assets/img/proyectos/niscal/Fig_niscal_1.png" alt="" width="75%"><br><br>
             <img src="../assets/img/proyectos/niscal/Fig_niscal_2.png alt="">
-            <img src="../assets/img/proyectos/niscal/Fig_niscal_2_alternative.png" alt="" width="75%"><br><br>
+                <img src=" ../assets/img/proyectos/niscal/Fig_niscal_2_alternative.png" alt="" width="75%"><br><br>
             <img src="../assets/img/proyectos/niscal/Fig_niscal_3.png" alt="">
             <img src="../assets/img/proyectos/niscal/Fig_niscal_4.png" alt="" width="75%"><br><br>
             <img src="../assets/img/proyectos/niscal/Slit_loss_StandardStar.png" alt="">
         </div>
     </section>
-
-
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
         <div class="container px-4 px-lg-5">Copyright &copy; F3HR <span class="year"></span></div>    
     </footer>
-<!-- Bootstrap core JS-->
+    <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
