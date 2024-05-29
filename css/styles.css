@@ -676,6 +676,18 @@ progress {
     max-width: 1320px;
   }
 }
+@media (min-width: 380px) and (max-width:466px) {
+  .container-sm, .container p {
+   font-size: small; /* 12px */
+  
+  }
+}
+@media (min-width: 275px) and (max-width:380px) {
+  .container-sm, .container p {
+   font-size: x-small; 
+   
+  }
+}
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
