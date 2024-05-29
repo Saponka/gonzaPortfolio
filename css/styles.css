@@ -66,7 +66,13 @@
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
-
+/* principal reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*  */
 *,
 *::before,
 *::after {
@@ -11744,7 +11750,7 @@ body {
   color: blueviolet; 
 }
 .contact-section .social a:active {
-  color: #fff;
+  color: #000;
   
 }
 .footer {
@@ -11866,3 +11872,9 @@ background-size: cover;
   display: flex;
   justify-content: center;
 }
+
+contact-section::before,
+     section::after {
+         content: "";
+         border: none;
+     }
