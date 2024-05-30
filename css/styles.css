@@ -71,7 +71,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
+
 /*  */
 *,
 *::before,
@@ -96,6 +98,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  
 }
 
 hr {
@@ -655,6 +658,7 @@ progress {
   .container-sm, .container {
     max-width: 540px;
   }
+
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
@@ -676,6 +680,7 @@ progress {
     max-width: 1320px;
   }
 }
+/* agregados */
 @media (min-width: 380px) and (max-width:466px) {
   .container-sm, .container p {
    font-size: small; /* 12px */
@@ -687,6 +692,7 @@ progress {
    font-size: x-small; 
    
   }
+  
 }
 .row {
   --bs-gutter-x: 1.5rem;
@@ -11677,7 +11683,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
   background-color: #000;/* fondo negro */
 }
 .projects-section .featured-text {
@@ -11835,7 +11841,8 @@ background-size: cover;
   /* border: 1px solid #000; */
   content-visibility: hidden;
   overflow: hidden;
-background:radial-gradient(rgba(0, 0, 0, 0.1) 12%, rgba(0, 0, 0, 0.5) 52%, #000 71%), url("../assets/img/astronomyjpg.jpeg");
+background:radial-gradient(rgba(0, 0, 0, 0.1) 12%, rgba(0, 0, 0, 0.5) 52%, #000 71%), url("../assets/img/GeminiMontage.jpg");
+/* background:radial-gradient(rgba(0, 0, 0, 0.1) 12%, rgba(0, 0, 0, 0.5) 52%, #000 71%), url("../assets/img/astronomyjpg.jpeg"); */
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: scroll;
@@ -11877,7 +11884,16 @@ background-size: cover;
 
 /* titulo */
 #tituloPrincipal{
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color: white;
+}
+
+@media(max-width:768px){
+  #tituloPrincipal{
+    font-size: 1rem;
+    font-weight: bolder;
+   
+  }
 }
 /* div container card proyects */
 .contentCardProyects{
