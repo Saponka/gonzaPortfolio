@@ -3084,8 +3084,8 @@ textarea.form-control-lg {
 
 .btn-secondary {
   color: #070707;
-  background-color: #f4f2f8;
-  border-color: #471a05;
+  background-color: #8758e3;
+  border-color: #05471b;
 }
 .btn-secondary:hover {
   color: #fff;
@@ -11565,7 +11565,7 @@ body {
 }
 
 .btn {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 68%) !important;
   padding: 1.25rem 2rem;
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 80%;
