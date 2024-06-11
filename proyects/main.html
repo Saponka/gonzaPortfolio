@@ -41,7 +41,7 @@
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">Projects</h1>
+                    <h1 class="mx-auto my-0 ">Projects</h1>
                 </div>
             </div>
         </div>
@@ -109,6 +109,46 @@
                 </div>
                 <br>
                 <hr>
+                  <!--  -->
+                <!-- col-md-4 opcional -->
+                <div class=" mb-3 mb-md-0">
+                    <!-- modal id=data-bs-target del button img o texto-->
+                    <div class="modal fade" id="mv3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="modal-dialog bg-black">
+                            <!-- img o texto -->
+                            <!--  <img src="../img/marvel/1.jpg" class="img-fluid rounded"> -->
+                            <h4 style="color: rgb(255, 255, 255);text-align: center;">NISCAL</h4>
+                            <h6 class="text-center text-white-50" >[Observation Techniques]</h6>
+                            <p class="" style="color: rgb(255, 255, 255); text-align: center;">
+                                <br><br><!-- <span class="text-white-40 mb-0">Abstract:</span> --> <br>
+                                NISCAL optimizes telluric correction and flux calibration, minimizing the contribution of
+                                the stellar spectrum to the telluric correction, automating the search for the best
+                                available stellar template, and tracking errors to estimate the level of uncertainty in the
+                                final spectrum. <br>
+                                The current version is for slit spectroscopy of point sources and is being developed for:
+                                <br> LS spectroscopy of extended objects, IFU spectroscopy, MOS, and flux calibration of
+                                multi-epoch data.
+                                <br>
+                            </p><br><br>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-satellite-dish fa-lg text-primary mb-2"></i>
+                            <h2 class="text-uppercase m-0" style="color: black;">NISCAL: Near Infrared Spectroscopic CaLibrator</h2>
+                            <hr class="my-4 mx-auto" />
+                            <div class="medium text-black-50"> [Observation Techniques]</div> <br>
+                            <!-- trigger modal 2 -->
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#mv3"
+                                class="btn btn-outline-primary">Abstract</a>
+                                <a href="./2-Niscal.html" class="btn btn-secondary">Project</a>
+                        </div>
+                       
+                    </div>
+                </div>
+                <hr>
                 <!-- col-md-4 opcional -->
                 <div class=" mb-3 mb-md-0">
                     <!-- modal id=data-bs-target del button img o texto-->
@@ -118,6 +158,7 @@
                             <!-- img o texto -->
                             <!--  <img src="../img/marvel/1.jpg" class="img-fluid rounded"> -->
                             <h4 style="color: rgb(255, 255, 255);text-align: center;">The Starburst-AGN connection</h4>
+                            <h6 class="text-center text-white-50" > [Variability of NGC 2992]-[Nuclear star formation in NGC 253]-[Nuclear cinematics of NGC 5128]</h6>
                             <p class="" style="color: rgb(255, 255, 255); text-align: center;">
                                 <br><br><!-- <span class="text-white-40 mb-0">Abstract:</span> --> <br>
                                 Increasing evidence suggests that there are potential links between the properties of active
@@ -150,7 +191,6 @@
                             <div class="small text-black-50">- Nuclear star formation in NGC 253</div>
                             <div class="small text-black-50">- Nuclear cinematics of NGC 5128</div> <br>
                             
-                            
                             <!-- trigger modal 2 -->
                             <a href="#" data-bs-toggle="modal" data-bs-target="#mv2"
                                 class="btn btn-outline-primary">Abstract</a>
@@ -160,63 +200,8 @@
                 </div>
                 <br>
                 <hr>
-                <!-- col-md-4 opcional -->
-                <div class=" mb-3 mb-md-0">
-                    <!-- modal id=data-bs-target del button img o texto-->
-                    <div class="modal fade" id="mv3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                        <div class="modal-dialog bg-black">
-                            <!-- img o texto -->
-                            <!--  <img src="../img/marvel/1.jpg" class="img-fluid rounded"> -->
-                            <h4 style="color: rgb(255, 255, 255);text-align: center;">NISCAL</h4>
-                            <p class="" style="color: rgb(255, 255, 255); text-align: center;">
-                                <br><br><!-- <span class="text-white-40 mb-0">Abstract:</span> --> <br>
-                                NISCAL optimizes telluric correction and flux calibration, minimizing the contribution of
-                                the stellar spectrum to the telluric correction, automating the search for the best
-                                available stellar template, and tracking errors to estimate the level of uncertainty in the
-                                final spectrum. <br>
-                                The current version is for slit spectroscopy of point sources and is being developed for:
-                                <br> LS spectroscopy of extended objects, IFU spectroscopy, MOS, and flux calibration of
-                                multi-epoch data.
-                                <br><!-- <br><span class="text-white-40 mb-0">Description:</span> <br>
-                                Infrared spectroscopic observations are often accompanied by a comparison star (or
-                                "telluric") to correct for rapidly varying atmospheric absorption that depend on observing
-                                conditions (e.g. water vapor, temperature, air mass). <br>
-                                NISCAL is a code that uses the spectrum of the observed star and a list of stellar spectra
-                                (synthetic or observed), to optimize the telluric correction and flux calibration,
-                                automating the search for the best fit, minimizing the contribution of the stellar spectrum
-                                to the transmission function, and following the errors to estimate the level of uncertainty
-                                in the final spectrum. <br>
-                                NISCAL calculates the difference in radial velocity, searches for the spectrum that best
-                                fits the observed star, obtains the transmission function by removing the stellar spectrum,
-                                and applies the telluric correction to the science data. <br>
-                                In addition, it offers a flux calibration with the magnitude of either the scientific source
-                                or the telluric star, or with data from a flux standard star, where all slit losses are
-                                considered based on the user-defined light profile. <br>
-                                Its current version is for slit spectroscopy of point sources and is being developed for
-                                other spectroscopy modes. <br>
-                                We present the effect of telluric correction and flux calibration on the signal-to-noise
-                                ratio of the final spectrum with observations of Flamingos-2 in Gemini South.
-                                <br><br><span class="text-white-40 mb-0">Publications:</span> <br>
-                                <cite> Díaz, Gaspar & Díaz (2023, BAAA, 64, 329)</cite> -->
-                            </p><br><br>
-                            <hr>
-                        </div>
-                    </div>
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i class="fas fa-satellite-dish fa-lg text-primary mb-2"></i>
-                            <h2 class="text-uppercase m-0" style="color: black;">NISCAL: Near Infrared Spectroscopic CaLibrator</h2>
-                            <hr class="my-4 mx-auto" />
-                            <div class="medium text-black-50"> [Observation Techniques]</div> <br>
-                            <!-- trigger modal 2 -->
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#mv3"
-                                class="btn btn-outline-primary">Abstract</a>
-                                <a href="./2-Niscal.html" class="btn btn-secondary">Project</a>
-                        </div>
-                       
-                    </div>
-                </div>
+
+                
             </div>
         </div>
     
@@ -281,7 +266,7 @@
                             <!--  <img src="../img/marvel/1.jpg" class="img-fluid rounded"> -->
                             <h4 style="color: rgb(247, 246, 248);text-align: center;"> Spectroscopic monitoring of highly obscured active galactic nuclei, selected with "Machine
                                 Learning" algorithms</h4>
-                                <h6 class="text-center text-white-50 " >[Red Anomalies]</h6>
+                                <h6 class="text-center text-white-50 " >[Extragalactic Astronomy]</h6>
                             <p class="" style="color: rgb(255, 255, 255); text-align: center;">
                                
                                 <br><br><!-- <span class="text-white-40 mb-0">Abstract:</span> --> <br>
@@ -461,7 +446,31 @@
                         
                     </div>
                 </div>
-    
+                <!--  -->
+                <div class=" mb-3 mb-md-0 mt-2">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-globe fa-lg text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0" style="color: black;">Lyman Continuum Galaxies and the escape fraction of Lyman-break
+                                galaxies</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small "> [Extragalactic Astronomy] <br><br>
+                       
+                 <cite>Bassett, et al. (2019, MNRAS, 483, 5223)</cite>
+                 <a class="btn btn-sm btn-outline-primary mb-1" style="padding:5px;width:50px;"
+                     href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.483.5223B/abstract"
+                     target="_blank">Ads</a>
+                 <br>
+                 <cite>Cooke, et al. (2014, MNRAS, 441, 837) </cite>
+                 <a class="btn btn-sm btn-outline-primary mb-1" style="padding:5px;width:50px;"
+                     href=" https://ui.adsabs.harvard.edu/abs/2014MNRAS.441..837C/abstract"
+                     target="_blank">Ads</a>
+                 <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
                 <div class=" mb-3 mb-md-0 mt-2">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
@@ -537,29 +546,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" mb-3 mb-md-0 mt-2">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i class="fas fa-globe fa-lg text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0" style="color: black;">Lyman Continuum Galaxies and the escape fraction of Lyman-break
-                                galaxies</h4>
-                            <hr class="my-4 mx-auto" />
-                            <div class="small "> [Extragalactic Astronomy] <br><br>
-                       
-                 <cite>Bassett, et al. (2019, MNRAS, 483, 5223)</cite>
-                 <a class="btn btn-sm btn-outline-primary mb-1" style="padding:5px;width:50px;"
-                     href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.483.5223B/abstract"
-                     target="_blank">Ads</a>
-                 <br>
-                 <cite>Cooke, et al. (2014, MNRAS, 441, 837) </cite>
-                 <a class="btn btn-sm btn-outline-primary mb-1" style="padding:5px;width:50px;"
-                     href=" https://ui.adsabs.harvard.edu/abs/2014MNRAS.441..837C/abstract"
-                     target="_blank">Ads</a>
-                 <br>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!--  -->
             </div>
         </div>
         <!-- social -->

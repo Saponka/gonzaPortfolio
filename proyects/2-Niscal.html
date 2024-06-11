@@ -44,17 +44,7 @@
                     <h4 class="mx-auto my-0 text-uppercase" id="title-proyects">Niscal</h4><br>
                     <p class="text-white-50 mb-0 " style="text-align: start;">
 
-                        <br><span class="text-white-40 mb-0">Abstract:</span> <br>
-    
-                        NISCAL optimizes telluric correction and flux calibration, minimizing the contribution of the
-                        stellar spectrum to the telluric correction, automating the search for the best available stellar
-                        template, and tracking errors to estimate the level of uncertainty in the final spectrum. The
-                        current version is for slit spectroscopy of point sources and is being developed for: LS
-                        spectroscopy of extended objects, IFU spectroscopy, MOS, and flux calibration of multi-epoch data.
-    
-    
-                        <br> <span class="text-white-50 mb-0"> Description:</span><br>
-    
+                  
                         Infrared spectroscopic observations are often accompanied by a comparison star (or "telluric") to
                         correct for rapidly varying atmospheric absorption that depend on observing conditions (e.g. water
                         vapor, temperature, air mass). NISCAL is a code that uses the spectrum of the observed star and a
@@ -71,10 +61,10 @@
                         signal-to-noise ratio of the final spectrum with observations of Flamingos-2 in Gemini South. <br>
     
     
-                        <span class="text-white-50 mb-0">Publications:</span><br>
+                       <!--  <span class="text-white-50 mb-0">Publications:</span><br> -->
     
-    
-    
+                
+                          <br>
                         <cite class="text-white-50 mb-0">Díaz, Gaspar & Díaz (2023, BAAA, 64, 329)</cite><br>
                         <a href="http://ui.adsabs.harvard.edu/abs/2023BAAA...64..329D/abstract">https://ui.adsabs.harvard.edu/abs/2023BAAA...64..127D/abstract</a>
                     </p>
@@ -84,14 +74,39 @@
     </header>
 
     <section class="bg-black" style="margin-bottom: -1px;margin-top: -1px;">
-        <h3 style="text-align: center;">Images</h3>
+     
         <div class="container px-4 px-lg-5 " style="display: flex;flex-direction: column; align-items: center;" >
-            <img src="../assets/img/proyectos/niscal/Fig_niscal_1.png" alt="" width="75%"><br><br>
-            <img src="../assets/img/proyectos/niscal/Fig_niscal_2.png" alt=""width="75%">
-            <img src=" ../assets/img/proyectos/niscal/Fig_niscal_2_alternative.png" alt="" width="75%"><br><br>
-            <img src="../assets/img/proyectos/niscal/Fig_niscal_3.png" alt=""width="75%">
-            <img src="../assets/img/proyectos/niscal/Fig_niscal_4.png" alt="" width="75%"><br><br>
-            <img src="../assets/img/proyectos/niscal/Slit_loss_StandardStar.png" alt=""width="75%">
+            <img src="../assets/img/proyectos/niscal/Fig_niscal_1.png" alt="" width="50%"><br>
+            <p class="text-white-50 mb-0">Figure 1: Characteristics in the region of K band.
+                Grey: example of atmospheric transmission
+                at Cerro Pachón. 
+                Magenta: Flamingos-2 Ks filter transmission. 
+                Blue: Scaled synthetic stellar spectrum (T=9000 K) from the GSL \citep{husser2013}. 
+                Black: Star HD21875 observed in Ks with 
+                Flamingos-2</p>
+            <br>
+            <img src="../assets/img/proyectos/niscal/niscal_cross.png" alt=""width="50%"> <br>
+            <p class="text-white-50 mb-0">Figure 2:Top: Correlation function between the template
+                xsl_HD74721_A0V and 
+                the telluric star HD21875, 
+                the maximum corresponds to 172 km/s, indicated with the red dot. 
+                Bottom: Telluric star (blue) and template displaced by  172 km/s
+                (red line with gray-shaded errors).
+                </p>
+           <br><br>
+           <img src="../assets/img/proyectos/niscal/niscal_3.png" alt=""width="50%"> <br>
+            <p class="text-white-50 mb-0">Figure 3: Top: Template xsl_HD174240_A1IV (green) and telluric star 
+                HD21875 (black) scaled at 2.12 microns 
+                (green dotted vertical line). 
+                Bottom: Template-telluric difference for quality control. 
+                Red dashed vertical lines indicate the range where the accuracy of the template is evaluated.
+                </p>
+                <img src=" ../assets/img/proyectos/niscal/Fig_niscal_2_alternative.png" alt="" width="50%">
+                
+            <img src="../assets/img/proyectos/niscal/Fig_niscal_4.png" alt="" width="50%"><br><br>
+            <p class="text-white-50 mb-0">Figure 4: Signal-to-noise ratio of the observed science spectrum (black), the observed telluric star (red), and the final science spectrum after telluric correction (green).</p>
+            <img src="../assets/img/proyectos/niscal/Slit_loss_StandardStar.png" alt=""width="50%"><br>
+            <p class="text-white-50 mb-0">Figure 5: Slit aperture correction (or slit-loss) for a point source with a PSF of FWHM=3.6 pixel and a slit width of 3 pixels. The PSF was simulated with a Gaussian kernel.</p>
         </div>
     </section>
     <!-- Footer-->
