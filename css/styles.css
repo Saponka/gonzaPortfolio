@@ -662,7 +662,7 @@ progress {
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: 720px;
+    max-width: 800px;
   }
 }
 @media (min-width: 992px) {
@@ -11572,6 +11572,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
+  margin-bottom: 8px;
 }
 
 .masthead {
@@ -11586,6 +11587,7 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
+
 /* masthead proyects */
 .proyect1 {
   position: relative;
@@ -11710,7 +11712,7 @@ body {
   }
 }
 .signup-section {
-  padding: 8rem 0;
+ 
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/moon.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -11888,6 +11890,8 @@ background-size: cover;
   color: white;
 }
 
+
+
 @media(max-width:768px){
   #tituloPrincipal{
     font-size: 1rem;
@@ -11905,4 +11909,8 @@ contact-section::before,
      section::after {
          content: "";
          border: none;
+     }
+
+     #archiveDivCard{
+      width: 395px;
      }
