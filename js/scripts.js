@@ -102,7 +102,7 @@ year.forEach(element => {
 //function goHome para pestañas
 function goHome() {
     // Redirigir al home (index.html)
-    window.location.href = "../index.html";
+    window.location.href = "../index.html#tituloPrincipal";
     
     // Cerrar la pestaña actual (circum-galactic.html)
     window.close();
