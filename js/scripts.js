@@ -105,7 +105,7 @@ function goHome() {
     window.location.href = "../index.html#tituloPrincipal";
     
     // Cerrar la pestaña actual (circum-galactic.html)
-    window.close();
+    //window.close();
     
     // Retornar false para evitar el comportamiento predeterminado del enlace
     return false;
